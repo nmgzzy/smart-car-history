@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3211370777</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\USER\inc\LPC546XX_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_VIRSCO.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_VIRSCO.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\&#x5F15;&#x811A;&#x529F;&#x80FD;&#x8BF4;&#x660e;.txt</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_OLED.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\startup\DeviceSupport\system_LPC54606.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\version.txt</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\startup\DeviceSupport\system_LPC54606.h</file>
+      <file>$PROJ_DIR$\..\..\USER\inc\isr.h</file>
+      <file>$PROJ_DIR$\..\..\USER\src\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\startup\DeviceSupport\IAR-ARM\startup_LPC54606.s</file>
+      <file>$PROJ_DIR$\..\..\USER\src\isr.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\headfile.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_NRF24L01.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_ICM20602.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MPU6050.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_FUN.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_FUN.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MPU6050.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MT9V032.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MT9V032.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_FONT.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_IIC.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MMA8451.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_NRF24L01.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_7725.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_OLED.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_IIC.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_L3G4200D.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_L3G4200D.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_7725.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_18TFT.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MMA8451.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_18TFT.c</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_FONT.h</file>
+      <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_ICM20602.c</file>
+    </outputs>
+  </configuration>
+</project>
+
+

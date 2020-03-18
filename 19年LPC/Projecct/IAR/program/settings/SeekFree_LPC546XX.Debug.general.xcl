@@ -1,0 +1,15 @@
+"D:\professional software\IAR7.8\arm\bin\armproc.dll" 
+
+"D:\professional software\IAR7.8\arm\bin\armjlink2.dll" 
+
+"E:\work\seekfree\freescale_work\单片机库开发\LPC\LPC\Projecct\IAR\program\Debug\Exe\SeekFree_LPC546XX.out" 
+
+--plugin "D:\professional software\IAR7.8\arm\bin\armbat.dll" 
+
+--device_macro "D:\professional software\IAR7.8\arm\config\debugger\NXP\LPC5460x.dmac" 
+
+--flash_loader "D:\professional software\IAR7.8\arm\config\flashloader\NXP\FlashNXPLPC5460xM4F512K.board" 
+
+
+
+

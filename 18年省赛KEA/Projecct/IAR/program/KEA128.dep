@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>358044458</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_spi.o</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\myMPU6050.h</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\speed.h</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\filter.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\welcome.o</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\isr.h</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\pid.h</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\other.h</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\control.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\control.pbi</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\HMIcmd.h</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\welcome.h</file>
+            <file>$PROJ_DIR$\..\..\USER\src\filter.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\myMPU6050.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\pid.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\headfile.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\version.txt</file>
+            <file>$PROJ_DIR$\..\..\USER\inc\adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\startup\DeviceSupport\IAR-ARM\startup_SKEAZ1284.s</file>
+            <file>$PROJ_DIR$\..\..\USER\src\adc.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\DataScope_DP.C</file>
+            <file>$PROJ_DIR$\..\..\USER\src\isr.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\control.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\welcome.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\speed.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_OLED.h</file>
+            <file>$PROJ_DIR$\..\..\USER\src\main.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\other.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\startup\DeviceSupport\system_SKEAZ1284.c</file>
+            <file>$PROJ_DIR$\..\..\USER\src\HMIcmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_kbi.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_pit.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_port.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_port_cfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_ftm.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\common.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_irq.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_systick.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MPU6050.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MPU6050.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_OLED.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_ftm.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_irq.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\misc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_pit.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_port.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_FUN.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\font.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\font.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_FUN.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_IIC.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_systick.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_kbi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_IIC.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\inc\KEA128_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\drives\src\common.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\pid.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\control.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\KEA128.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\myMPU6050.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_port.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\filter.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_systick.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\myMPU6050.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_ftm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_kbi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_irq.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DataScope_DP.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HMIcmd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_spi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\font.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_MPU6050.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_SKEAZ1284.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_pit.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_FUN.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_pit.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\other.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_OLED.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_ftm.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_SKEAZ1284.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pid.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HMIcmd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_FUN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\other.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\filter.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\font.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_MPU6050.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_kbi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_systick.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_SKEAZ1284.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\welcome.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\speed.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_port.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_IIC.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_OLED.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\speed.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SEEKFREE_IIC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\KEA128_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\common.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DataScope_DP.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\filter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\myMPU6050.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\pid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\startup\DeviceSupport\IAR-ARM\startup_SKEAZ1284.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\DataScope_DP.C</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\control.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\welcome.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\speed.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\other.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\startup\DeviceSupport\system_SKEAZ1284.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\USER\src\HMIcmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_MPU6050.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_OLED.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_ftm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_pit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_FUN.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\seekfree\font.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_kbi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\seekfree\SEEKFREE_IIC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\KEA128_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\drives\src\common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

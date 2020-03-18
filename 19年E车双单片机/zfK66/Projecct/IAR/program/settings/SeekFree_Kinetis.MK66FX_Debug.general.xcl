@@ -1,0 +1,17 @@
+"D:\IAR\setup\arm\bin\armproc.dll" 
+
+"D:\IAR\setup\arm\bin\armJET.dll" 
+
+"F:\拯救者备份191031\WorkSpace\SmartCarWS\新建文件夹\19年E车\zfK66\Projecct\IAR\program\MK66FX_Debug\Exe\SeekFree_Kinetis.out" 
+
+--plugin="D:\IAR\setup\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR\setup\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro="D:\IAR\setup\arm\config\debugger\NXP\K6x_Trace.dmac" 
+
+--flash_loader="D:\IAR\setup\arm\config\flashloader\NXP\FlashK65Fxxx256K.board" 
+
+
+
+

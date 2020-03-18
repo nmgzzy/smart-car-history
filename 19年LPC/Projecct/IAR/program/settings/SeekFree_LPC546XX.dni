@@ -1,0 +1,203 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[JLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[DebugChecksum]
+Checksum=173100262
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=180000000
+ClockAutoDetect=0
+ClockWanted=5000000
+JtagSpeed=5000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[FlashMemory]
+FlashEraseSelection=0     
+[Jet]
+JetConnSerialNo=148231728
+JetConnFoundProbes=
+DisableInterrupts=0
+LeaveRunning=1
+MultiCoreRunAll=0
+OnlineReset=System
+PrevWtdReset=System
+[PlDriver]
+FirstRun=0
+MemConfigValue=D:\professional software\IAR7.8\arm\CONFIG\debugger\NXP\LPC54606J512.ddf
+[SWOManager]
+SamplingDivider=8192
+OverrideClock=0
+CpuClock=1768759340
+SwoClock=544437614
+DataLogMode=0
+ItmPortsEnabled=63
+ItmTermIOPorts=1
+ItmLogPorts=0
+ItmLogFile=$PROJ_DIR$\ITM.log
+PowerForcePC=1
+PowerConnectPC=1
+[ArmDriver]
+EnableCache=1
+[ETMTraceWindow]
+PortWidth=4
+PortMode=0
+CaptureDataValues=0
+CaptureDataAddresses=0
+CaptureDataRange=0
+DataFirst=0
+DataLast=-1
+StopWhen=0
+StallCPU=0
+NoPCCapture=0
+[struct_types]
+Fmt0=dma_descriptor_t-xfercfg	4	0
+[array_types]
+Fmt0=uint8[100]	3	0
+Fmt1=uint8[160]	3	0
+Fmt2=uint8[188]	3	0
+Fmt3=uint8[200]	3	0
+Fmt4=uint8[20]	4	0
+Fmt5=uint8[22560]	3	0
+Fmt6=uint8[376]	3	0
+Fmt7=uint8[3]	4	0
+Fmt8=uint8[400]	3	0
+Fmt9=uint8[500]	4	0
+Fmt10=uint8[6]	4	0
+Fmt11=uint8[752]	3	0
+[watch_formats]
+Fmt0={W}42:adc_test	3	0
+Fmt1={W}42:dd	3	0
+Fmt2={W}42:ddf	4	0
+Fmt3={W}42:ddt	4	0
+Fmt4={W}42:ddt>>4	4	0
+Fmt5={W}42:df	3	0
+Fmt6={W}42:dfd	3	0
+Fmt7={W}42:eeprom_test	3	0
+Fmt8={W}42:ff	3	0
+Fmt9={W}42:fff	3	0
+Fmt10={W}42:fg	3	0
+Fmt11={W}42:i	3	0
+Fmt12={W}42:match_temp	4	0
+Fmt13={W}42:period_temp	4	0
+Fmt14={W}42:temp_fifowr	4	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+Count=0
+SuppressDialog=0

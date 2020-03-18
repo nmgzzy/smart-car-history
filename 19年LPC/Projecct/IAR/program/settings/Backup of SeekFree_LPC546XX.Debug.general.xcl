@@ -1,0 +1,15 @@
+"D:\IAR\setup\arm\bin\armproc.dll" 
+
+"D:\IAR\setup\arm\bin\armJET.dll" 
+
+"F:\拯救者备份191031\WorkSpace\SmartCarWS\新建文件夹\19年LPC\Projecct\IAR\program\Debug\Exe\SeekFree_LPC546XX.out" 
+
+--plugin="D:\IAR\setup\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR\setup\arm\config\debugger\NXP\LPC5460x.dmac" 
+
+--flash_loader="D:\IAR\setup\arm\config\flashloader\NXP\FlashNXPLPC5460xM4F512K.board" 
+
+
+
+

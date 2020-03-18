@@ -1,0 +1,13 @@
+"D:\IAR\setup\arm\bin\armproc.dll" 
+
+"D:\IAR\setup\arm\bin\armsim2.dll" 
+
+"F:\拯救者备份191031\WorkSpace\SmartCarWS\新建文件夹\校赛\Projecct\IAR\program\Debug\Exe\KEA128.out" 
+
+--plugin="D:\IAR\setup\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR\setup\arm\config\debugger\NXP\KExx.dmac" 
+
+
+
+
